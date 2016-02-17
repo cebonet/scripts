@@ -1,4 +1,6 @@
 #!/bin/bash
+#Battery low notifier that works with i3-navgar
+
 BATPATH=/sys/class/power_supply/BAT0
 BAT_FULL=$BATPATH/charge_full
 BAT_NOW=$BATPATH/charge_now
