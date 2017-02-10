@@ -1,0 +1,1 @@
+tar -zcpf /backups/fullbackup.tar.gz --directory=/ --exclude=proc --exclude=sys --exclude=dev --exclude=backups --exclude=mnt --exclude=lost+found --exclude=media --exclude=tmp --exclude=net --exclude=run .
